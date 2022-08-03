@@ -1,0 +1,124 @@
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: auto;
+    padding: 0% 7%;
+    background-color: #5584AC;
+}
+.header h1{ width: 45%;}
+.profile {
+    padding: 5%;
+    text-align: center;
+    color: #5584AC;
+}
+
+.profile .profile-picture{
+    width: 20%;
+    height: 250px;
+    border-radius: 100%;
+}
+
+.profile hi{
+    color: #1DA1F2;
+    font-size: 30px;
+}
+
+.location{
+    padding-left: 45%;
+    width: 50%;
+}
+
+.profile .location{
+    display: flex;
+    width: 20%;
+    padding-left: 45%;
+   
+}
+
+.location img{
+    width: 30px;
+}
+
+.mydrive{
+    background-color: #5584AC;
+    color:#ffffff;
+    display: flex;
+    padding: 5%;
+   
+}
+.mydrive-detail{
+    width: 35%;
+    margin-left: 130px;
+
+}
+
+.mydrive-contact{
+    width:25%;
+    margin-left: 300px;
+    padding-left: 40px;
+}
+.services-1{
+    margin-left: 200px;
+}
+.ui-ux{
+    text-align: center;
+    color: white;
+    background-color: darkslategray;
+    padding: 20px;
+    height: 200px;
+    width: 200px;
+    border-radius: 8px;
+    margin-left: 200px;
+}
+.web{
+    text-align: center;
+    color: white;
+    background-color: darkslategray;
+    padding: 20px;
+    height: 200px;
+    width: 200px;
+    border-radius: 8px;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+.training{
+    text-align: center;
+    color: white;
+    background-color: darkslategray;
+    padding: 20px;
+    height: 200px;
+    width: 200px;
+    border-radius: 8px;
+
+}
+
+.service{
+    display: flex;
+    position: relative;
+    padding-bottom: 45px;
+}
+
+.footer{
+    padding: 5%;
+    background-color: #5584AC;
+    text-align: center;
+    color: #ffffff;
+}
+.footer img{
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+}
+
+
+.footer a{
+    color: #ffffff;
+    text-decoration: none;
+}
